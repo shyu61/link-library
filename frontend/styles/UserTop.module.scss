@@ -1,0 +1,32 @@
+$mild-blue: #F1F8FF;
+
+.avatar {
+  margin-right: 0.2em;
+}
+
+.container {
+  border: 1.5px solid lightgray;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+  padding: 0.4em;
+}
+
+.header {
+  align-items: center;
+  background-color: $mild-blue;
+  border: 1.5px solid darken($mild-blue, 10%);
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  padding: 0.8em;
+}
+
+.mockArea {
+  background-color: aquamarine;
+  display: inline-block;
+  height: 30em;
+  width: 100%;
+}
+
+.root {
+  margin-top: 10em;
+}
